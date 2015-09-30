@@ -1,0 +1,6 @@
+= GROOVY-7614
+
+This is a bug when subclassing some pretty fancy schmancy code from
+link:https://github.com/johnrengelman[John R. Engelman].
+
+link:https://issues.apache.org/jira/browse/GROOVY-7614[GROOVY-7614]

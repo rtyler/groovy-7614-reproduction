@@ -1,0 +1,14 @@
+apply plugin: 'groovy'
+
+description = 'reproduction case for GROOVY-7614'
+defaultTasks 'assemble'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy:2.4.5'
+    compile gradleApi()
+    compile 'com.github.jengelman.gradle.plugins:shadow:[1.2.2,2.0)'
+}
